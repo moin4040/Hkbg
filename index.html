@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      const u = new URLSearchParams(window.location.search).get("u");
+      if (u) {
+        location.replace(u);
+      }
+    </script>
+  </head>
+  <body style="margin:0; background:#fff;"></body>
+</html>
